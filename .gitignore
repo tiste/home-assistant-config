@@ -1,6 +1,11 @@
-*
+/*
 !*.yaml
 !scenes
+!README.md
 !.gitignore
+!/google-home
+/google-home/*
+!/google-home/gactions
+!/google-home/project.json
 secrets.yaml
 known_devices.yaml

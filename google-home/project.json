@@ -1,0 +1,20 @@
+{
+   "actions": [
+      {
+         "name": "actions.devices",
+         "deviceControl": {
+
+         },
+         "fulfillment": {
+            "conversationName": "automation"
+         }
+      }
+   ],
+   "conversations": {
+      "automation": {
+         "name": "automation",
+         "url": "https://roost.tiste.io/api/google_assistant"
+      }
+   },
+   "locale": "fr"
+}
