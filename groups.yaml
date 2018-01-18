@@ -3,11 +3,13 @@ living_room:
   view: yes
   entities:
     - media_player.piece_a_vivre
+    - switch.lumiere_salon
 
 bedroom:
   name: Chambre
   view: yes
   entities:
+    - switch.lumiere_chambre
 
 climate:
   name: Climat
