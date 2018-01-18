@@ -1,0 +1,42 @@
+sun.sun:
+  friendly_name: Soleil
+
+sensor.yr_symbol:
+  hidden: true
+  homebridge_hidden: true
+
+binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor:
+  friendly_name: Présence
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_luminance:
+  friendly_name: Luminosité
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_temperature:
+  friendly_name: Thermomètre
+
+media_player.piece_a_vivre:
+  friendly_name: Sonos
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_alarm_level:
+  hidden: true
+  homebridge_hidden: true
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_alarm_type:
+  hidden: true
+  homebridge_hidden: true
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_burglar:
+  hidden: true
+  homebridge_hidden: true
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_general:
+  hidden: true
+  homebridge_hidden: true
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_seismic_intensity:
+  hidden: true
+  homebridge_hidden: true
+
+sensor.fibaro_system_fgms001zw5_motion_sensor_sourcenodeid:
+  hidden: true
+  homebridge_hidden: true

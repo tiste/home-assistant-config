@@ -1,0 +1,19 @@
+living_room:
+  name: Salon
+  view: yes
+  entities:
+    - media_player.piece_a_vivre
+
+bedroom:
+  name: Chambre
+  view: yes
+  entities:
+
+climate:
+  name: Climat
+  view: yes
+  entities:
+    - sun.sun
+    - binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor
+    - sensor.fibaro_system_fgms001zw5_motion_sensor_temperature
+    - sensor.fibaro_system_fgms001zw5_motion_sensor_luminance
