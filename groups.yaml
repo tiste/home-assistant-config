@@ -3,6 +3,7 @@ living_room:
   view: yes
   entities:
     - media_player.piece_a_vivre
+    - media_player.salon
     - switch.lumiere_salon
 
 bedroom:
