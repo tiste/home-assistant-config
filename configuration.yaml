@@ -33,6 +33,17 @@ zwave:
 media_player:
   - platform: sonos
 
+google_assistant:
+  project_id: roost-d24db
+  client_id: !secret ga_client_id
+  access_token: !secret ga_access_token
+  exposed_domains:
+    - switch
+    - light
+    - group
+    - media_player
+
+# Add configurator in panel
 panel_iframe:
   configurator:
     title: Configurator
