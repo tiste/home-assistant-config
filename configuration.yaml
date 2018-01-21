@@ -42,6 +42,7 @@ google_assistant:
     - light
     - group
     - media_player
+    - climate
 
 # Add configurator in panel
 panel_iframe:
@@ -91,6 +92,10 @@ map:
 
 # Track the sun
 sun:
+
+# Climate (e.g. thermostats) devices
+climate:
+  - platform: zwave
 
 # Weather prediction
 sensor:
