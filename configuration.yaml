@@ -18,7 +18,7 @@ rfxtrx:
 
 switch:
   platform: rfxtrx
-  automatic_add: True
+  # automatic_add: True
   devices:
     0b110000017016a60a010f70:
       name: Porte
@@ -48,7 +48,7 @@ panel_iframe:
   configurator:
     title: Configurator
     icon: mdi:wrench
-    url: http://hassio.local:3218
+    url: https://hassio.local:3218
 
 # Enables the frontend
 frontend:
