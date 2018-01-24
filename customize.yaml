@@ -31,3 +31,33 @@ sensor.fibaro_system_fgms001zw5_motion_sensor_seismic_intensity:
 sensor.fibaro_system_fgms001zw5_motion_sensor_sourcenodeid:
   hidden: true
   homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_alarm_level:
+  hidden: true
+  homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_alarm_type:
+  hidden: true
+  homebridge_hidden: true
+switch.fibaro_system_fgs213_switch_switch:
+  friendly_name: Lumière salon
+switch.fibaro_system_fgs213_switch_switch_2:
+  hidden: true
+  homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_sourcenodeid:
+  hidden: true
+  homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_power_management:
+  hidden: true
+  homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_exporting:
+  hidden: true
+  homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_energy:
+  hidden: true
+  homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_power:
+  friendly_name: Consommation
+sensor.fibaro_system_fgs213_switch_heat:
+  hidden: true
+  homebridge_hidden: true
+zwave.fibaro_system_fgs213_switch:
+  friendly_name: Interrupteur salon

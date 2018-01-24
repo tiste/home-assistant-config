@@ -2,9 +2,11 @@ living_room:
   name: Salon
   view: yes
   entities:
+    - switch.lumiere_tv
+    - switch.fibaro_system_fgs213_switch_switch
+    - sensor.fibaro_system_fgs213_switch_power
     - media_player.piece_a_vivre
     - media_player.salon
-    - switch.lumiere_salon
 
 bedroom:
   name: Chambre

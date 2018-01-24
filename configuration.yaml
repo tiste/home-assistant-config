@@ -25,7 +25,7 @@ switch:
     0b11000663bc0cfe02010f70:
       name: Lumière chambre
     0b11000246bc0cfe07010f70:
-      name: Lumière salon
+      name: Lumière TV
 
 zwave:
   usb_path: /dev/ttyACM0
