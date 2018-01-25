@@ -44,6 +44,14 @@ google_assistant:
     - media_player
     - climate
 
+sensor:
+  - platform: linky
+    username: !secret linky_username
+    password: !secret linky_password
+
+    # Weather prediction
+  - platform: yr
+
 # Add configurator in panel
 panel_iframe:
   configurator:
@@ -96,10 +104,6 @@ sun:
 # Climate (e.g. thermostats) devices
 climate:
   - platform: zwave
-
-# Weather prediction
-sensor:
-  - platform: yr
 
 # Text to speech
 tts:

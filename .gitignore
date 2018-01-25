@@ -7,5 +7,10 @@
 /google-home/*
 !/google-home/gactions
 !/google-home/project.json
+!/custom_components
+/custom_components/*
+!/custom_components/sensor
+/custom_components/sensor/*
+!/custom_components/sensor/linky.py
 secrets.yaml
 known_devices.yaml
