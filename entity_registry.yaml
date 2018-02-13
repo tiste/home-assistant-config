@@ -1,0 +1,135 @@
+media_player.piece_a_vivre:
+  config_entry_id: 2948cd6c2a1c49dc878fcdc47c8cf028
+  name:
+  platform: sonos
+  unique_id: RINCON_5CAAFD17409401400
+binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093240320
+sensor.fibaro_system_fgms001zw5_motion_sensor_temperature:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093256722
+sensor.fibaro_system_fgms001zw5_motion_sensor_luminance:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093256754
+sensor.fibaro_system_fgms001zw5_motion_sensor_seismic_intensity:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093257106
+sensor.fibaro_system_fgms001zw5_motion_sensor_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305281
+sensor.fibaro_system_fgms001zw5_motion_sensor_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305297
+sensor.fibaro_system_fgms001zw5_motion_sensor_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305313
+sensor.fibaro_system_fgms001zw5_motion_sensor_burglar:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305441
+sensor.fibaro_system_fgms001zw5_motion_sensor_general:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 3-72057594095009793
+switch.fibaro_system_fgs213_switch_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594109837312
+switch.fibaro_system_fgs213_switch_switch_2:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-144115188147765248
+switch.fibaro_system_fgs213_switch_switch_3:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-216172782185693184
+switch.fibaro_system_fgs213_switch_switch_4:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-288230376223621120
+sensor.fibaro_system_fgs213_switch_energy:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050306
+sensor.fibaro_system_fgs213_switch_unknown:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-144115188147978242
+sensor.fibaro_system_fgs213_switch_power:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050434
+sensor.fibaro_system_fgs213_switch_exporting:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110050816
+sensor.fibaro_system_fgs213_switch_alarm_type:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082497
+sensor.fibaro_system_fgs213_switch_alarm_level:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082513
+sensor.fibaro_system_fgs213_switch_sourcenodeid:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082529
+sensor.fibaro_system_fgs213_switch_heat:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082609
+sensor.fibaro_system_fgs213_switch_power_management:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082673
+media_player.salon:
+  config_entry_id:
+  name:
+  platform: cast
+  unique_id: 176dd7b2-8aa8-72d5-c6fc-68b57d706cb9
+zwave.aeotec_zw090_zstick_gen5_eu:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.fibaro_system_fgms001zw5_motion_sensor:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.fibaro_system_fgs213_switch:
+  config_entry_id:
+  name:
+  platform: zwave
+  unique_id: node-4
