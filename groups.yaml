@@ -3,6 +3,7 @@ living_room:
   view: yes
   entities:
     - switch.lumiere_tv
+    - switch.guirlande
     - switch.fibaro_system_fgs213_switch_switch
     - sensor.fibaro_system_fgs213_switch_power
     - media_player.piece_a_vivre
