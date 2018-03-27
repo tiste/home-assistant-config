@@ -68,7 +68,6 @@ frontend:
 config:
 
 http:
-  server_port: 443
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
   # Secrets are defined in the file secrets.yaml

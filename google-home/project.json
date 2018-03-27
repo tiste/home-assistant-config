@@ -13,7 +13,7 @@
    "conversations": {
       "automation": {
          "name": "automation",
-         "url": "https://roost.tiste.io/api/google_assistant"
+         "url": "https://tiste.duckdns.org/api/google_assistant"
       }
    },
    "locale": "fr"
