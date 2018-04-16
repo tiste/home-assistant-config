@@ -12,5 +12,6 @@
 !/custom_components/sensor
 /custom_components/sensor/*
 !/custom_components/sensor/linky.py
+!/custom_components/sensor/README.md
 secrets.yaml
 known_devices.yaml
