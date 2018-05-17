@@ -17,17 +17,24 @@ rfxtrx:
   device: /dev/ttyUSB0
 
 switch:
-  platform: rfxtrx
-  # automatic_add: True
-  devices:
-    0b110000017016a60a010f70:
-      name: Porte
-    0b11000663bc0cfe02010f70:
-      name: Lumière chambre
-    0b11000246bc0cfe07010f70:
-      name: Lumière TV
-    0b11000212bc0cfe01010f70:
-      name: Guirlande
+  - platform: rfxtrx
+    # automatic_add: True
+    devices:
+      0b110000017016a60a010f70:
+        name: Porte
+      0b11000663bc0cfe02010f70:
+        name: Lumière chambre
+      0b11000246bc0cfe07010f70:
+        name: Lumière TV
+      0b11000212bc0cfe01010f70:
+        name: Guirlande
+
+  - platform: command_line
+    switches:
+      garage:
+        command_on: "/usr/bin/curl -X GET http://192.168.1.66/open"
+        command_off: "exit 0"
+        friendly_name: Garage
 
 zwave:
   usb_path: /dev/ttyACM0
