@@ -1,10 +1,10 @@
-- alias: 'Turn off garage when opened'
+- alias: "Turn off garage when opened"
   hide_entity: true
   trigger:
     platform: state
     entity_id: switch.garage
-    from: 'off'
-    to: 'on'
+    from: "off"
+    to: "on"
     for:
       seconds: 5
   action:
