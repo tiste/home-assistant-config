@@ -8,6 +8,8 @@ living_room:
     - sensor.fibaro_system_fgs213_switch_power
     - media_player.piece_a_vivre
     - media_player.salon
+    - media_player.sony_bravia_tv
+    - scene.cosy
 
 bedroom:
   name: Chambre

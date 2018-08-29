@@ -13,6 +13,8 @@ media_player.piece_a_vivre:
   friendly_name: Sonos
 media_player.salon:
   friendly_name: Google Home
+media_player.sony_bravia_tv:
+  friendly_name: Télé
 sensor.fibaro_system_fgms001zw5_motion_sensor_alarm_level:
   hidden: true
   homebridge_hidden: true
