@@ -3,6 +3,14 @@ sun.sun:
 sensor.yr_symbol:
   hidden: true
   homebridge_hidden: true
+scene.cosy:
+  icon: mdi:lightbulb-on
+scene.tf1:
+  icon: mdi:youtube-tv
+scene.bfm:
+  icon: mdi:youtube-tv
+scene.arte:
+  icon: mdi:youtube-tv
 binary_sensor.fibaro_system_fgms001zw5_motion_sensor_sensor:
   friendly_name: Présence
 sensor.fibaro_system_fgms001zw5_motion_sensor_luminance:
@@ -39,6 +47,10 @@ sensor.fibaro_system_fgs213_switch_alarm_level:
 sensor.fibaro_system_fgs213_switch_alarm_type:
   hidden: true
   homebridge_hidden: true
+switch.porte:
+  icon: mdi:door
+switch.garage:
+  icon: mdi:garage
 switch.fibaro_system_fgs213_switch_switch:
   friendly_name: Lumière salon
 switch.fibaro_system_fgs213_switch_switch_2:
