@@ -1,16 +1,10 @@
 homeassistant:
-  # Name of the location where Home Assistant is running
   name: Home
-  # Location required to calculate the time the sun rises and sets
   latitude: 50.629078
   longitude: 3.0589089999999715
-  # Impacts weather/sunrise data (altitude above sea level in meters)
   elevation: 26
-  # metric for Metric, imperial for Imperial
   unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
   time_zone: Europe/Paris
-  # Customization file
   customize: !include customize.yaml
 
 rfxtrx:
@@ -84,7 +78,6 @@ sensor:
     username: !secret linky_username
     password: !secret linky_password
 
-    # Weather prediction
   - platform: yr
 
 # Add configurator in panel
@@ -145,6 +138,9 @@ tts:
 
 # Cloud
 cloud:
+
+# HomeKit
+homekit:
 
 group: !include groups.yaml
 automation: !include automations.yaml
