@@ -62,6 +62,9 @@ switch.fibaro_system_fgs213_switch_switch_3:
 switch.fibaro_system_fgs213_switch_switch_4:
   hidden: true
   homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_unknown_2:
+  hidden: true
+  homebridge_hidden: true
 sensor.fibaro_system_fgs213_switch_sourcenodeid:
   hidden: true
   homebridge_hidden: true
