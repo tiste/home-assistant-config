@@ -7,8 +7,18 @@ homeassistant:
   time_zone: Europe/Paris
   customize: !include customize.yaml
 
-rfxtrx:
-  device: /dev/ttyUSB0
+media_player:
+  - platform: sonos
+
+  - platform: braviatv
+    host: 192.168.1.43
+
+sensor:
+  - platform: linky
+    username: !secret linky_username
+    password: !secret linky_password
+
+  - platform: yr
 
 switch:
   - platform: rfxtrx
@@ -29,6 +39,11 @@ switch:
         command_on: "/usr/bin/curl -X GET http://192.168.1.66/open"
         command_off: "exit 0"
         friendly_name: Garage
+
+vacuum:
+  - platform: xiaomi_miio
+    host: 192.168.1.44
+    token: 4f344b72364c676d5379325439564243
 
 scene:
   - name: "Cosy"
@@ -52,14 +67,11 @@ scene:
       media_player.sony_bravia_tv:
         source: Arte
 
+rfxtrx:
+  device: /dev/ttyUSB0
+
 zwave:
   usb_path: /dev/ttyACM0
-
-media_player:
-  - platform: sonos
-
-  - platform: braviatv
-    host: 192.168.1.43
 
 google_assistant:
   project_id: roost-d24db
@@ -72,13 +84,6 @@ google_assistant:
     - group
     - media_player
     - climate
-
-sensor:
-  - platform: linky
-    username: !secret linky_username
-    password: !secret linky_password
-
-  - platform: yr
 
 # Add configurator in panel
 panel_iframe:
