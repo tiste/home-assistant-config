@@ -75,8 +75,6 @@ zwave:
 
 google_assistant:
   project_id: roost-d24db
-  client_id: !secret ga_client_id
-  access_token: !secret ga_access_token
   exposed_domains:
     - switch
     - scene
@@ -84,13 +82,6 @@ google_assistant:
     - group
     - media_player
     - climate
-
-# Add configurator in panel
-panel_iframe:
-  configurator:
-    title: Configurator
-    icon: mdi:wrench
-    url: https://hassio.local:3218
 
 # Enables the frontend
 frontend:
