@@ -17,6 +17,7 @@ sensor:
   - platform: linky
     username: !secret linky_username
     password: !secret linky_password
+    timeout: 300
 
   - platform: yr
 
