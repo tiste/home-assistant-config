@@ -46,6 +46,9 @@ vacuum:
     host: 192.168.1.44
     token: 4f344b72364c676d5379325439564243
 
+tradfri:
+  host: 192.168.1.45
+
 scene:
   - name: "Cosy"
     entities:
