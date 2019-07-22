@@ -20,6 +20,8 @@ sensor:
     timeout: 300
 
   - platform: yr
+    monitored_conditions:
+      - temperature
 
 switch:
   - platform: rfxtrx
