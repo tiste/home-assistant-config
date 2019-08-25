@@ -11,7 +11,7 @@ media_player:
   - platform: sonos
 
   - platform: braviatv
-    host: 192.168.1.43
+    host: 192.168.1.47
 
 sensor:
   - platform: linky
