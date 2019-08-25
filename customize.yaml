@@ -82,6 +82,12 @@ sensor.fibaro_system_fgs213_switch_power:
 sensor.fibaro_system_fgs213_switch_heat:
   hidden: true
   homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_interval:
+  hidden: true
+  homebridge_hidden: true
+sensor.fibaro_system_fgs213_switch_previous_reading:
+  hidden: true
+  homebridge_hidden: true
 zwave.fibaro_system_fgs213_switch:
   friendly_name: Interrupteur salon
 sensor.linky_current_month:
