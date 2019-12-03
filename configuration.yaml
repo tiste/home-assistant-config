@@ -95,6 +95,8 @@ frontend:
 # Enables configuration UI
 config:
 
+mobile_app:
+
 http:
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
