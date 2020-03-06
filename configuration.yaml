@@ -7,6 +7,16 @@ homeassistant:
   time_zone: Europe/Paris
   customize: !include customize.yaml
 
+http:
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+  # Secrets are defined in the file secrets.yaml
+  # api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+
+default_config:
+
 media_player:
   - platform: sonos
 
@@ -61,17 +71,23 @@ scene:
   - name: "TF1"
     entities:
       media_player.sony_bravia_tv:
+        state: on
         source: TF1
+        state: on
 
   - name: "BFM"
     entities:
       media_player.sony_bravia_tv:
+        state: on
         source: BFM TV
+        state: on
 
   - name: "Arté"
     entities:
       media_player.sony_bravia_tv:
+        state: on
         source: Arte
+        state: on
 
 rfxtrx:
   device: /dev/ttyUSB0
@@ -96,14 +112,6 @@ frontend:
 config:
 
 mobile_app:
-
-http:
-  ssl_certificate: /ssl/fullchain.pem
-  ssl_key: /ssl/privkey.pem
-  # Secrets are defined in the file secrets.yaml
-  api_password: !secret http_password
-  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-  # base_url: example.duckdns.org:8123
 
 # Checks for available updates
 # Note: This component will send some information about your system to
